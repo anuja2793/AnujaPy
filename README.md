@@ -1,9 +1,7 @@
 # AnujaPy
 # Even or Odd Checker
 
-number = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
 
-if number % 2 == 0:
-    print(f"{number} is Even.")
-else:
-    print(f"{number} is Odd.")
+if c % 2 == 0: print(c," is Even.") 
+else: print(c," is Odd.")
